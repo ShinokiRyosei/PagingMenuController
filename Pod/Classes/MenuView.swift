@@ -109,7 +109,7 @@ open class MenuView: UIScrollView {
     
     // MARK: - Internal method
     
-    internal func move(toPage page: Int, animated: Bool = true) {
+    public func move(toPage page: Int, animated: Bool = true) {
         // hide menu view when constructing itself
         if !animated {
             alpha = 0
