@@ -119,7 +119,7 @@ open class PagingMenuController: UIViewController {
         move(toPage: currentPage, animated: false)
     }
     
-    fileprivate func setupMenuView() {
+    open func setupMenuView() {
         switch options.componentType {
         case .pagingController: return
         default: break
